@@ -1,0 +1,48 @@
+.navbar
+    .navlogo 
+        h3 SIXTEEN 
+            span CLOTHING
+    .navul
+        ul.list-unstyled
+            li 
+                a(href="") home
+            li
+                a(href="") our prouducts
+            li
+                a(href="") about us 
+            li
+                a(href="") contact us
+        .ic.i.fas.fa-bars
+.header
+    .carousel.slide#carouselExampleIndicators(data-bs-ride="carousel")
+            .carousel-indicators
+                a.active(  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1") 
+                a( data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2")
+                a(  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3") 
+            .carousel-inner
+                .carousel-item.active
+                    img.img-fluid.d-block.w-100(src="imgs/slide_01.jpg")
+                    .carousel-caption.d-none.d-md-block
+                        p best offer
+                        h1  new arrivals on sale
+      
+                .carousel-item
+                    img.img-fluid.d-block.w-100(src="imgs/slide_02.jpg")
+                    .carousel-caption.d-none.d-md-block
+                        p flash deals
+                        h1  get your best products
+                .carousel-item
+                    img.img-fluid.d-block.w-100(src="imgs/slide_03.jpg")
+                    .carousel-caption.d-none.d-md-block
+                        p last minut
+                        h1 grap last minut deal
+            .carousel-control-prev( type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev")
+                span.carousel-control-prev-icon(aria-hidden="true")
+                span.visually-hidden Previous
+            .carousel-control-next(type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next")
+                span.carousel-control-next-icon(aria-hidden="true")
+                span.visually-hidden next
+
+
+
+    

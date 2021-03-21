@@ -9186,3 +9186,98 @@ readers do not read off random characters that represent icons */
   overflow: visible;
   position: static;
   width: auto; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+* {
+  box-sizing: border-box;
+  transition: .3s ease-in-out; }
+
+.navbar {
+  background-color: #000;
+  font-size: 20px; }
+  .navbar .navlogo {
+    float: left; }
+    .navbar .navlogo h3 {
+      padding-left: 60px;
+      color: #fff; }
+      .navbar .navlogo h3 span {
+        color: #f00; }
+  @media (max-width: 992px) {
+    .navbar .navul ul {
+      display: none; }
+    .navbar .navul .ic {
+      display: inline-block !important; } }
+  .navbar .navul .ic {
+    display: none;
+    color: #f00;
+    background-color: #fff;
+    padding: 5px 20px;
+    margin-right: 20px; }
+  .navbar .navul ul {
+    float: right; }
+    .navbar .navul ul li {
+      display: inline-block;
+      margin: 10px;
+      margin-right: 40px;
+      position: relative; }
+      .navbar .navul ul li a:hover {
+        color: #fff; }
+      .navbar .navul ul li:hover:before {
+        content: '';
+        position: absolute;
+        border: 1px solid #f00;
+        top: 60px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto; }
+    .navbar .navul ul li:first-of-type {
+      position: relative; }
+      .navbar .navul ul li:first-of-type:before {
+        content: '';
+        position: absolute;
+        border: 1px solid #f00;
+        top: 60px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto; }
+
+.header .carousel-control-next-icon {
+  display: none; }
+
+.header .carousel-control-prev-icon {
+  display: none; }
+
+.header .carousel-item {
+  position: relative; }
+  .header .carousel-item img {
+    width: 100%;
+    height: 100%; }
+
+.header .carousel-caption {
+  position: absolute;
+  top: 150px; }
+  .header .carousel-caption h1 {
+    font-size: 90px; }
+  .header .carousel-caption p {
+    color: #f00;
+    font-size: 30px;
+    font-weight: 600; }
+
+.header .carousel-indicators a {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: gray;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  border: none; }
+  .header .carousel-indicators a:hover {
+    border: none; }
+
+.header .carousel-indicators .active {
+  background-color: #fff; }

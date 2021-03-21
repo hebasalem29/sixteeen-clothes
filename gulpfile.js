@@ -18,7 +18,7 @@ gulp.task('html',function()
 });
 gulp.task('css',function()
 {
-   return gulp.src(['stage/css/**/*.scc','stage/css/**/*.css'])
+   return gulp.src(['stage/css/**/*.css','stage/css/**/*.scss'])
    .pipe(sorcemaps.init())
    .pipe(sass({outputstyle:'compressed'}))
    .pipe(autoprefixer())
@@ -39,6 +39,6 @@ gulp.task('watch',function()
 {
    livereload.listen();
    gulp.watch('stage/html/**/*.pug',gulp.series('html'));
-   gulp.watch(['stage/css/**/.*scss','stage/css/**/*.css'],gulp.series('css'));
+   gulp.watch(['stage/css/**/*.scss','stage/css/**/*.css'],gulp.series('css'));
    gulp.watch('stage/js/*.js',gulp.series('js'));
 });

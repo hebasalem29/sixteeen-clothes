@@ -9193,7 +9193,7 @@ a {
 
 * {
   box-sizing: border-box;
-  transition: .3s ease-in-out; }
+  transition: .2s ease-in-out; }
 
 .navbar {
   background-color: #000;
@@ -9204,7 +9204,7 @@ a {
       padding-left: 60px;
       color: #fff; }
       .navbar .navlogo h3 span {
-        color: #f00; }
+        color: #f33f3f; }
   @media (max-width: 992px) {
     .navbar .navul ul {
       display: none; }
@@ -9212,7 +9212,7 @@ a {
       display: inline-block !important; } }
   .navbar .navul .ic {
     display: none;
-    color: #f00;
+    color: #f33f3f;
     background-color: #fff;
     padding: 5px 20px;
     margin-right: 20px; }
@@ -9228,7 +9228,7 @@ a {
       .navbar .navul ul li:hover:before {
         content: '';
         position: absolute;
-        border: 1px solid #f00;
+        border: 1px solid #f33f3f;
         top: 60px;
         left: 0;
         right: 0;
@@ -9239,45 +9239,285 @@ a {
       .navbar .navul ul li:first-of-type:before {
         content: '';
         position: absolute;
-        border: 1px solid #f00;
+        border: 1px solid #f33f3f;
         top: 60px;
         left: 0;
         right: 0;
         margin-left: auto;
         margin-right: auto; }
 
-.header .carousel-control-next-icon {
-  display: none; }
-
-.header .carousel-control-prev-icon {
-  display: none; }
-
-.header .carousel-item {
-  position: relative; }
-  .header .carousel-item img {
-    width: 100%;
-    height: 100%; }
-
-.header .carousel-caption {
-  position: absolute;
-  top: 150px; }
-  .header .carousel-caption h1 {
-    font-size: 90px; }
-  .header .carousel-caption p {
-    color: #f00;
-    font-size: 30px;
-    font-weight: 600; }
-
-.header .carousel-indicators a {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: gray;
-  margin-left: 30px;
-  margin-bottom: 20px;
-  border: none; }
-  .header .carousel-indicators a:hover {
+.header {
+  margin-top: -40px !important; }
+  .header .carousel-control-next-icon {
+    display: none; }
+  .header .carousel-control-prev-icon {
+    display: none; }
+  .header .carousel-item {
+    position: relative; }
+    .header .carousel-item img {
+      width: 100%;
+      height: 100%; }
+  .header .carousel-caption {
+    position: absolute;
+    top: 150px; }
+    .header .carousel-caption h1 {
+      font-size: 90px; }
+    .header .carousel-caption p {
+      color: #f33f3f;
+      font-size: 30px;
+      font-weight: 600; }
+  .header .carousel-indicators a {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-left: 30px;
+    margin-bottom: 20px;
     border: none; }
+    .header .carousel-indicators a:hover {
+      border: none; }
+  .header .carousel-indicators .active {
+    background-color: #fff; }
 
-.header .carousel-indicators .active {
-  background-color: #fff; }
+.products {
+  margin-top: 60px;
+  position: relative; }
+  .products h2 {
+    padding-bottom: 10px;
+    margin-top: 40px;
+    border-bottom: 1px solid #eee; }
+    .products h2 p {
+      float: right;
+      font-size: 15px;
+      color: #f33f3f;
+      font-weight: bold; }
+      .products h2 p i {
+        color: #f33f3f;
+        font-size: 12px;
+        margin-left: 3px; }
+  .products .pro {
+    margin-bottom: 60px;
+    margin-top: 50px; }
+    .products .pro .pro1 {
+      margin-bottom: 40px;
+      border: 1px solid #eee; }
+      .products .pro .pro1 img {
+        width: 100%;
+        margin: 0;
+        padding: 0; }
+      @media (max-width: 1009px) and (min-width: 768px) {
+        .products .pro .pro1 h4 span {
+          top: 30px !important;
+          left: 0px; }
+        .products .pro .pro1 .ss {
+          left: 0px;
+          top: 20px !important; } }
+      .products .pro .pro1 .ff {
+        padding: 20px; }
+        .products .pro .pro1 .ff h4 {
+          margin-top: 20px;
+          color: #1a6692;
+          position: relative;
+          padding-bottom: 20px; }
+          .products .pro .pro1 .ff h4 span {
+            color: #000;
+            position: absolute;
+            top: 0px;
+            right: 5px; }
+      .products .pro .pro1 p {
+        padding-left: 20px;
+        color: #4a4a4a; }
+      .products .pro .pro1 .all {
+        padding-bottom: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        color: #f33f3f;
+        position: relative; }
+        .products .pro .pro1 .all i {
+          color: #f33f3f; }
+        .products .pro .pro1 .all .ss {
+          position: absolute;
+          right: 20px;
+          top: 0; }
+
+h2 {
+  padding-bottom: 10px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #eee; }
+
+.about {
+  padding-bottom: 60px;
+  border-bottom: 1px solid #eee; }
+  .about p {
+    color: #4a4a4a; }
+    .about p .a14 {
+      color: #007bff; }
+      .about p .a14:hover {
+        color: #1a6692; }
+  .about .p11 {
+    color: #1a6692;
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 20px; }
+  .about .uii {
+    background-color: #f33f3f;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px; }
+    .about .uii:hover {
+      background-color: #121212; }
+  .about ul {
+    list-style-type: square;
+    margin-bottom: 40px; }
+    .about ul li a {
+      color: #4a4a4a; }
+
+img {
+  padding-top: 40px; }
+
+.creative {
+  margin-bottom: 60px;
+  margin-top: 45px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f7f7f7; }
+  .creative h5 {
+    color: #1a6692; }
+    .creative h5 span {
+      font-weight: bold; }
+  .creative .uii {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 40px;
+    background-color: #f33f3f;
+    padding: 10px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    white-space: nowrap; }
+    @media (max-width: 768px) {
+      .creative .uii {
+        text-align: center; } }
+    .creative .uii:hover {
+      background-color: #121212; }
+  .creative .sec {
+    padding-top: 20px;
+    margin-bottom: 60px; }
+
+.copy {
+  padding: 60px;
+  margin-top: 40px;
+  text-align: center;
+  border-top: 1px solid #eee; }
+  .copy p {
+    color: #4a4a4a;
+    font-size: 15px; }
+    .copy p a {
+      color: #f33f3f  !important; }
+
+.header1 {
+  background-image: url("../imgs/products-heading.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100px; }
+  .header1 h5 {
+    padding-top: 180px;
+    color: #f33f3f;
+    font-size: 30px;
+    text-align: center; }
+  .header1 h1 {
+    color: #fff;
+    font-size: 80px;
+    text-align: center; }
+
+.squre ul {
+  text-align: center;
+  padding-bottom: 40px; }
+  .squre ul li {
+    font-weight: bold;
+    border: 1px solid #eee;
+    padding: 15px;
+    display: inline; }
+    .squre ul li a {
+      color: #000;
+      background-color: transparent; }
+    .squre ul li:hover {
+      background-color: #f33f3f;
+      color: #fff; }
+    .squre ul li:hover a {
+      color: #fff; }
+  .squre ul .active {
+    background-color: #f33f3f; }
+    .squre ul .active a {
+      color: #fff; }
+
+.header2 {
+  background-image: url("../imgs/about-heading.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100px; }
+  .header2 h5 {
+    padding-top: 180px;
+    color: #f33f3f;
+    font-size: 30px;
+    text-align: center; }
+  .header2 h1 {
+    color: #fff;
+    font-size: 80px;
+    text-align: center; }
+
+.thr h2 {
+  padding: 20px;
+  border-bottom: 1px solid #eee; }
+
+.thr .off {
+  padding: 20px;
+  padding-left: 30px; }
+  .thr .off h5 {
+    color: #1a6692; }
+  .thr .off p:nth-of-type(2) {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee; }
+
+.thr ul {
+  margin-top: 40px; }
+  .thr ul li {
+    margin-left: 10px;
+    display: inline-block; }
+    .thr ul li a {
+      color: #000;
+      background-color: #eee;
+      height: 50px;
+      width: 50px;
+      padding: 20px; }
+      .thr ul li a:hover {
+        background-color: #f33f3f;
+        color: #fff; }
+
+.fou .ttt {
+  padding-bottom: 60px; }
+
+.fou h2 {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee; }
+
+.fou .jon {
+  margin-bottom: 40px;
+  border: 1px solid #eee; }
+  .fou .jon img {
+    margin-top: -40px; }
+  @media (max-width: 768px) {
+    .fou .jon img {
+      width: 100%; } }
+  .fou .jon p:first-of-type {
+    font-size: 20px;
+    color: #1a6692; }
+    .fou .jon p:first-of-type span {
+      font-size: 13px;
+      color: #f33f3f; }
+  .fou .jon p:nth-of-type(2) {
+    color: #4a4a4a; }

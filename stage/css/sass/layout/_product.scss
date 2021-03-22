@@ -1,0 +1,94 @@
+.products{
+    margin-top: 60px;
+    position: relative;
+    h2{
+        padding-bottom: 10px;
+        margin-top: 40px;
+        border-bottom: 1px solid #eee;
+        p{
+            float: right;
+            font-size: 15px;
+            color: #f33f3f;
+            font-weight: bold;
+            i{
+                color: #f33f3f;
+                font-size: 12px;
+               
+                margin-left: 3px;
+               
+            }
+        }
+        }
+        .pro{
+            margin-bottom: 60px;
+            margin-top: 50px;
+        .pro1{
+           
+            margin-bottom: 40px;
+            img{
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            border: 1px solid #eee;
+              @media(max-width:1009px)and(min-width:768px)
+              {
+                   
+                  h4 span{
+                       top:30px !important;
+                       left: 0px;
+                  }
+                  .ss{
+
+                    left: 0px;
+                    top:20px !important;
+                  }
+              }
+            .ff{
+                
+                padding: 20px;
+            h4{
+               
+              
+                margin-top: 20px;
+                
+                color: #1a6692;
+                position: relative;
+                span{
+                    
+                    color: #000;
+                    
+                    position: absolute;
+                    top:0px;
+                    right: 5px;
+                    
+                }
+                padding-bottom: 20px;
+            }
+        }
+            p{
+                padding-left: 20px;
+                color: #4a4a4a;
+            }
+            .all{
+               padding-bottom: 20px;
+                margin-left: 20px;
+                margin-bottom: 20px;
+                color: #f33f3f;
+                position: relative;
+            i{
+               
+                color: #f33f3f;
+               
+            }
+            .ss{
+                position: absolute;
+                right: 20px;
+                top:0;
+            }
+            
+        }
+        }
+        }
+    }
+

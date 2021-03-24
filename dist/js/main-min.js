@@ -1,0 +1,1 @@
+$(function(){"use strict";$(".div8").on("click",function(){$(".sub1").fadeToggle()}),$(window).on("scroll",function(){$(this).scrollTop()>600?($(".navbar").addClass("po"),$(".ji").addClass("med")):($(".navbar").removeClass("po"),$(".ji").removeClass("med"))}),$(window).on("load",function(){$(".overlay").fadeIn(500),$(".overlay").fadeOut()})});

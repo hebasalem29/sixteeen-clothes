@@ -1,0 +1,92 @@
+.header3{
+    background-image: url('../imgs/contact-heading.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+    h5{
+        padding-top: 180px;
+        color: #f33f3f;
+        font-size: 30px;
+        text-align: center;
+    }
+    h1{
+        //padding-top: 10px;
+        color: #fff;
+        font-size: 80px;
+        text-align: center;
+    }
+
+}
+.loc{
+    margin-top: 60px;
+    .par2{
+        margin-bottom: 40px;
+    }
+    .par1{
+        p:nth-of-type(2){
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        ul{
+            margin-top: 50px;
+            li{
+                display: inline-block;
+                a{padding: 20px;
+                    width: 50px;
+                    height: 50px;
+                    color: #000;
+                    background-color: #eee;
+                    &:hover{
+                        background-color: #f33f3f;
+                        color: #fff;
+                    }
+                }
+              
+            }
+        }
+    }
+}
+.fr{
+    h2{
+        margin-top: 60px;
+    }
+    .g2{
+        h4{padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #f33f3f;}
+        h5:first-of-type{
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        h5{ color:#1a6692!important;
+            border-bottom:1px solid #eee;
+            padding-bottom: 20px;
+        &:hover{
+            color: #f33f3f;
+          
+           
+        }}
+    }
+    form{
+        margin-bottom: 60px;
+        input,textarea{
+            padding: 10px;
+            width: 100%;
+            margin-bottom: 15px;
+            border:1px solid #eee;
+            
+        }
+        textarea{
+            margin-bottom:50px;
+            padding-bottom: 40px;
+        }
+        a{
+            
+            background-color: #f33f3f;
+            color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+        }
+    }
+}
